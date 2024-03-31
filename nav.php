@@ -43,11 +43,11 @@
           <img src="logo.png" alt="" width="100" height="100">
           <span class="brand-name">
 
-          نخبة من افضل الاطباء
-        
+
+          مركز د/جميل خطاب 
     
 
-        
+   
        
           
           </span>
