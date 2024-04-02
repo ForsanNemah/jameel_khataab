@@ -150,7 +150,7 @@ echo "w_api start 2";
     curl_setopt($curlHandle, CURLOPT_HTTPHEADER, array('Content-Type: application/x-www-form-urlencoded'));
     curl_setopt($curlHandle, CURLOPT_POSTFIELDS, $postParameter);
     curl_setopt($curlHandle, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
+    //curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
     $curlResponse = curl_exec($curlHandle);
     echo $curlResponse;
     curl_close($curlHandle);
