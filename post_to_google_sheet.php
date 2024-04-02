@@ -122,7 +122,7 @@ function send_w_app_msg($phone,$msg,$token) {
 
     
 
-//echo "w_api start 2";
+echo "w_api start 2";
 
 
 
