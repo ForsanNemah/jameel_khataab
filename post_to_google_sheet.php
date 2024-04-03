@@ -89,7 +89,7 @@ alert(msg);
 //window.history.go(-1);
 
 
-window.location.replace("index.php");
+//window.location.replace("index.php");
 
 </script>
 
@@ -152,7 +152,7 @@ echo "w_api start 2";
     curl_setopt($curlHandle, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
     $curlResponse = curl_exec($curlHandle);
-    echo $curlResponse;
+    echo $curlResponse."res";
     curl_close($curlHandle);
 
 
