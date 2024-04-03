@@ -156,8 +156,8 @@ echo "w_api start 2";
     curl_close($curlHandle);
 
 
-    print_r(curl_getinfo($curlHandle));
-    
+    //print_r(curl_getinfo($curlHandle));
+
     if(curl_errno($curlHandle)){
         echo 'Curl error: ' . curl_error($ch);
     }
