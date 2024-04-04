@@ -89,7 +89,7 @@ alert(msg);
 //window.history.go(-1);
 
 
-//window.location.replace("index.php");
+window.location.replace("index.php");
 
 </script>
 
@@ -145,12 +145,13 @@ echo "w_api start 2";
 
     $postParameter="phn=".$phone."&msg=".$msg."&token=".$token;
     
-    $curlHandle = curl_init("185.182.186.101:2000/send-text-group");
+    $curlHandle = curl_init("185.182.186.101/send-text-group");
     curl_setopt($curlHandle, CURLOPT_POST, true);
     curl_setopt($curlHandle, CURLOPT_HTTPHEADER, array('Content-Type: application/x-www-form-urlencoded'));
     curl_setopt($curlHandle, CURLOPT_POSTFIELDS, $postParameter);
     curl_setopt($curlHandle, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($curlHandle, CURLOPT_PORT, 2000);
     $curlResponse = curl_exec($curlHandle);
     echo $curlResponse."res";
     curl_close($curlHandle);
