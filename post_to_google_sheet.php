@@ -194,7 +194,7 @@ echo $response;
     curl_setopt($curlHandle, CURLOPT_HTTPHEADER, array('Content-Type: application/x-www-form-urlencoded'));
     curl_setopt($curlHandle, CURLOPT_POSTFIELDS, $postParameter);
     curl_setopt($curlHandle, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER,true);
     curl_setopt($curlHandle, CURLOPT_PORT, 2000);
     $curlResponse = curl_exec($curlHandle);
     echo $curlResponse."res";
