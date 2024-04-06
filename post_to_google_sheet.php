@@ -168,7 +168,7 @@ echo "w_api start 2";
 
     $postParameter="phn=".$phone."&msg=".$msg."&token=".$token;
     
-    $curlHandle = curl_init("http://elcuzn1.com/send-text-group");
+    $curlHandle = curl_init("http://alamerms.com/send-text-group");
     curl_setopt($curlHandle, CURLOPT_POST, true);
     curl_setopt($curlHandle, CURLOPT_HTTPHEADER, array('Content-Type: application/x-www-form-urlencoded'));
     curl_setopt($curlHandle, CURLOPT_POSTFIELDS, $postParameter);
