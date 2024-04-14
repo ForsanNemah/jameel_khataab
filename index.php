@@ -674,7 +674,7 @@ include "faq.php";
     <!-- Start Logo Carousel -->
     <?php
 
-include "logo_slider.php";
+//include "logo_slider.php";
 
 
 ?>
