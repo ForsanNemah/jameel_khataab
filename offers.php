@@ -90,7 +90,7 @@ include "nav_offers.php";
           </div>
         </div>
         <div class="st-hero-social-group">
-          <div class="container">
+          <div class="container" hidden>
             <ul class="st-social-btn st-style1 st-mp0">
               <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
               <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
