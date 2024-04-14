@@ -1,5 +1,22 @@
 <head>
 
+
+<meta name="description" content="
+
+
+
+مركز  و مجمع د جميل خطاب
+
+افضل عيادة في الاحساء 
+افضل عيادة في المنطقة الشرقية 
+
+
+
+
+">
+
+
+
   <?php
 
 include "info.php";
@@ -32,5 +49,20 @@ include "info.php";
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJQEGHR7F4"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TJQEGHR7F4');
+</script>
+
+
+</head>
+
 
 </head>
